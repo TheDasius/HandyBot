@@ -3,7 +3,7 @@
 {
 	"name": "HandyBot",
 	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
-	"build": {"dockerfile": "Dockerfile"},
+	"build": {"dockerfile": "Dockerfile"}
 	//"features": {}
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
@@ -13,7 +13,7 @@
 	// "forwardPorts": [],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
-	// "postCreateCommand": "uname -a",
+	//"postCreateCommand": "pip install -r requirements.txt"
 
 	// Configure tool-specific properties.
 	// "customizations": {},
